@@ -1,0 +1,27 @@
+nav {
+  background-color: #ddd;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-brand {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .main-menu {
+    display: flex;
+    li {
+      margin: 20px;
+      cursor: pointer;
+    }
+  }
+  ul {
+    li {
+      list-style-type: none;
+      a.active {
+        color: orange;
+      }
+    }
+  }
+}
